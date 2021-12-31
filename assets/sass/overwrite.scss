@@ -1,11 +1,43 @@
-.main-banner{
+
+
+
+
+
+.main-banner {
+    padding: 165px 0;
     .left-content {
-        h2 {
-            font-size: 50px;
-            font-weight: 700;
-            color: #2a2a2a;
-            line-height: 72px;
+      h2 {
+        font-size: 40px;
+      }
+      margin-top: 0px;
+    }
+  }
+ .our-blog {
+    padding-top: 0px;
+  }
+
+  .our-blog {
+	.left-image{ 
+		.info {
+			.inner-content{ 
+				margin-top: -28px ;
+            }
         }
+      }
     }
 
-} 
+
+  
+  @media (min-width: 992px) {
+    .main-banner {
+      padding: 100px 0px 120px 0px;
+      .left-content {
+        margin-right: 45px;
+        margin-top: 145px;
+        h2 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+  
